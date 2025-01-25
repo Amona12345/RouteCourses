@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bk_detais_screen">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/android_imv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:onClick="onViewClick"
+            android:paddingTop="16dp"
+            android:src="@drawable/android_screen" />
+
+        <Button
+            android:id="@+id/android_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#002B6A"
+            android:onClick="onViewClick"
+            android:text="@string/android_course" />
+
+        <ImageView
+            android:id="@+id/ios_imv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:onClick="onViewClick"
+            android:paddingTop="16dp"
+            android:src="@drawable/ios_screen" />
+
+        <Button
+            android:id="@+id/ios_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#002B6A"
+            android:onClick="onViewClick"
+            android:text="@string/ios_courses" />
+
+        <ImageView
+            android:id="@+id/fullStack_imv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:onClick="onViewClick"
+            android:paddingTop="16dp"
+            android:src="@drawable/fullstuck_screen" />
+
+        <Button
+            android:id="@+id/fullStack_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#002B6A"
+            android:onClick="onViewClick"
+            android:text="@string/fullstack_courses" />
+    </LinearLayout>
+</ScrollView>
